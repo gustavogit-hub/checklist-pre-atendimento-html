@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template
+import os
 
 app = Flask(__name__)
 
@@ -17,5 +18,5 @@ def salvar():
     return render_template("sucesso.html", cliente=cliente)
 
 if __name__ == '__main__':
-    # Habilita o acesso via celular pela rede local
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
