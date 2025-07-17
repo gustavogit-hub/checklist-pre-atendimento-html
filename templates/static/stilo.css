@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1581093588401-8b16f986bdf4') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}

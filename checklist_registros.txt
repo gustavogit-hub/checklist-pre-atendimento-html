@@ -1,0 +1,36 @@
+17/07/2025 10:35 - Cliente: Paulo | Problema: Problema de rede
+Data: 17/07/2025 11:17 | Cliente: Marcos | Problema: Sistema fora do ar
+Data: 17/07/2025 11:18 | Cliente: Augusto | Problema: Impressora não responde
+Data: 17/07/2025 11:28 | Cliente: Augusto | Problema: Impressora não responde
+Data: 17/07/2025 11:29 | Cliente: Augusto | Problema: Impressora não responde
+Data: 17/07/2025 11:29 | Cliente: Augusto | Problema: Impressora não responde
+Data: 17/07/2025 11:30 | Cliente: Augusto | Problema: Impressora não responde
+Data: 17/07/2025 11:30 | Cliente: Augusto | Problema: Impressora não responde
+Data: 17/07/2025 11:30 | Cliente: Augusto | Problema: Impressora não responde
+Cliente: Rosana
+Problema: Problema de rede
+----------------------------------------
+Cliente: Jose
+Problema: Validar se há falhas de hardware visíveis
+----------------------------------------
+Cliente: Augusto
+Problema: Registrar o horário e local do atendimento
+----------------------------------------
+Cliente: Augusto
+Problema: Registrar o horário e local do atendimento
+----------------------------------------
+Cliente: Roberto
+Problema: Registrar o horário e local do atendimento
+----------------------------------------
+Cliente: Claudio
+Problema: Validar se há falhas de hardware visíveis 
+----------------------------------------
+Cliente: Julia
+Problema: Verificar se o computador está conectado á rede
+----------------------------------------
+Cliente: Dimas
+Problema: Verificação de dados
+----------------------------------------
+Cliente: Matheus
+Problema: Computador não liga
+----------------------------------------

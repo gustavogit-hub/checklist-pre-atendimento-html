@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Checklist Pré-Atendimento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("/fundo.jpg"); /* Substitua por sua imagem */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            margin: 60px auto;
+            width: 90%;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .referencias {
+            margin-top: 20px;
+            font-size: 14px;
+            background: rgba(255,255,255,0.1);
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Checklist Pré-Atendimento</h2>
+        <form method="POST" action="/salvar">
+            <label for="cliente">Nome do Cliente:</label>
+            <input type="text" id="cliente" name="cliente" required>
+
+            <label for="problema">Problema Relatado:</label>
+            <textarea id="problema" name="problema" rows="4" required></textarea>
+
+            <button type="submit">Salvar</button>
+        </form>
+
+        <div class="referencias">
+            <strong>Referências:</strong>
+            <ul>
+                <li>Verificar se o computador está conectado à rede</li>
+                <li>Checar se o software está atualizado</li>
+                <li>Validar se há falhas de hardware visíveis</li>
+                <li>Registrar o horário e local do atendimento</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

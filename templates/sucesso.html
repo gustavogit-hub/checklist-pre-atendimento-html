@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sucesso no Checklist</title>
+    <meta http-equiv="refresh" content="10; URL=/" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #e0f0ff, #f2f8fc);
+            color: #1c1c1c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007acc;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: #003d80;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>✅ Olá, {{ cliente }}!</h2>
+        <p>Seus dados foram salvos com sucesso no checklist.</p>
+        <p>Você será redirecionado para a página inicial em alguns segundos.</p>
+        <a href="/">Voltar agora</a>
+    </div>
+</body>
+</html>
